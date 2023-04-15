@@ -1,10 +1,10 @@
 $prefix: "";
 
-$xl: 92rem; //16px 1472px - 18px 1656px
+$xl: 1472px;
 $lg: 84rem;
-$md: 64rem; //16px 1024px - 18px 1152px
-$sm: 48rem; //16px 768pc - 18px 864px
-$xs: 48rem; //16px 768px - 18px 864px
+$md: 1024px; //16px 1024px - 18px 1152px
+$sm: 768px; //16px 768pc - 18px 864px
+$xs: 767px; //16px 768px - 18px 864px
 
 $breakpoints: (
     "xl": $xl,
