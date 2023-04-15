@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    height: 100dvh;
+    margin: 0 auto;
+    max-width: min(1070px, 90%);
+}
+
+div {
+    min-height: 100px;
+}
+
+.parent {
+    max-width: 800px;
+    background-color: #aaafff;
+    margin: 0 auto;
+
+    & + & {
+        margin-top: 2rem;
+    }
+
+    &:nth-child(2n){
+        filter: hue-rotate(90deg);
+    }
+}
+
+.child {
+    background-color: green;
+
+    &:nth-child(2){
+        background-color: red;
+    }
+    &:nth-child(3){
+        background-color: blue;
+    }
+    &:nth-child(4){
+        background-color: yellow;
+    }
+}
